@@ -320,6 +320,8 @@ def baseline_tangency(mu, Sigma, rf):
 from django.views.decorators.csrf import csrf_exempt
 import json
 
+
+
 @csrf_exempt
 def optimize_portfolio(request):
     if request.method != 'POST':
